@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    user-select: none;
+}
+
+.nav-button:focus {
+    outline: none;
+}
